@@ -1,21 +1,25 @@
 import Hero from "../sections/home/Hero";
-import TrustedSection from "../sections/home/TrustedSection";
-import ProductShowcase from "../sections/home/ProductShowcase";
-import Features from "../sections/home/Features";
-import ProductScreenshots from "../sections/home/ProductScreenshots";
-import ComparsionSection from "../sections/home/ComparsionSection";
-import RoadMap from "../sections/home/RoadMap";
+import Services from "../sections/home/Services";
+import WhyIntuiti from "../sections/home/WhyIntuiti";
+import HowWeWork from "../sections/home/HowWeWork";
+import Portfolio from "../sections/home/Portfolio";
+import Pricing from "../sections/home/Pricing";
+import Testimonials from "../sections/home/Testimonials";
+import FAQ from "../sections/home/FAQ";
+import FinalCTA from "../sections/home/FinalCTA";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <TrustedSection />
-      <ProductShowcase />
-      <Features />
-      <ProductScreenshots />
-      <ComparsionSection />
-      <RoadMap />
+      <Services />
+      <WhyIntuiti />
+      <HowWeWork />
+      <Portfolio />
+      <Pricing />
+      <Testimonials />
+      <FAQ />
+      <FinalCTA />
     </>
   );
 };

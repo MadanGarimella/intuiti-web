@@ -2,22 +2,22 @@ import logo from "../../assets/logos/intuiti-logo.png";
 
 const footerLinks = {
   Services: [
-    { label: "Custom Web Applications", href: "#services" },
-    { label: "Custom Software", href: "#services" },
-    { label: "MVP Development", href: "#services" },
-    { label: "API Integration", href: "#services" },
-    { label: "SaaS Development", href: "#services" },
+    { label: "Custom Web Applications", href: "/#services" },
+    { label: "Custom Software", href: "/#services" },
+    { label: "MVP Development", href: "/#services" },
+    { label: "API Integration", href: "/#services" },
+    { label: "SaaS Development", href: "/#services" },
   ],
   Company: [
-    { label: "Why Intuiti", href: "#why-us" },
-    { label: "How We Work", href: "#process" },
-    { label: "Portfolio", href: "#portfolio" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "FAQ", href: "#faq" },
+    { label: "Why Intuiti", href: "/#why-us" },
+    { label: "How We Work", href: "/#process" },
+    { label: "Portfolio", href: "/#portfolio" },
+    { label: "Pricing", href: "/#pricing" },
+    { label: "FAQ", href: "/#faq" },
   ],
   Contact: [
     { label: "contact@intuiticorporates.com", href: "mailto:contact@intuiticorporates.com" },
-    { label: "Book Free Consultation", href: "#contact" },
+    { label: "Book Free Consultation", href: "/#contact" },
     { label: "Hyderabad, India", href: null },
   ],
   Legal: [

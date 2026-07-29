@@ -3,12 +3,12 @@ import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import logo from "../../assets/logos/intuiti-logo.png";
 
 const navLinks = [
-  { title: "Services", href: "#services" },
-  { title: "Why Us", href: "#why-us" },
-  { title: "Process", href: "#process" },
-  { title: "Portfolio", href: "#portfolio" },
-  { title: "Pricing", href: "#pricing" },
-  { title: "FAQ", href: "#faq" },
+  { title: "Services", href: "/#services" },
+  { title: "Why Us", href: "/#why-us" },
+  { title: "Process", href: "/#process" },
+  { title: "Portfolio", href: "/#portfolio" },
+  { title: "Pricing", href: "/#pricing" },
+  { title: "FAQ", href: "/#faq" },
 ];
 
 const Navbar = () => {

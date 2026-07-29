@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logos/intuiti-logo.png";
 
 const footerLinks = {
@@ -85,12 +86,21 @@ const Footer = () => {
                 {links.map((link) => (
                   <li key={link.label}>
                     {link.href ? (
-                      <a
-                        href={link.href}
-                        className="text-zinc-500 hover:text-white transition-colors text-sm break-all"
-                      >
-                        {link.label}
-                      </a>
+                      link.href.startsWith("/") && !link.href.startsWith("/#") ? (
+                        <Link
+                          to={link.href}
+                          className="text-zinc-500 hover:text-white transition-colors text-sm break-all"
+                        >
+                          {link.label}
+                        </Link>
+                      ) : (
+                        <a
+                          href={link.href}
+                          className="text-zinc-500 hover:text-white transition-colors text-sm break-all"
+                        >
+                          {link.label}
+                        </a>
+                      )
                     ) : (
                       <span className="text-zinc-600 text-sm">{link.label}</span>
                     )}
